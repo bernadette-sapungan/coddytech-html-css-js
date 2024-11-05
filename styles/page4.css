@@ -1,0 +1,28 @@
+.innerBox {
+  padding: 16px;
+  background-color: palegoldenrod;
+  margin: 8px;
+}
+
+.container1 {
+  display: flex;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.container3 {
+  background-color: peachpuff;
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container4 {
+  background-color: paleturquoise;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
