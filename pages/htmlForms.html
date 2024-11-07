@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Form Practice</title>
+  </head>
+  <body>
+    <a href="/index.html">Back to Home Page</a>
+
+    <h2>HTML Forms</h2>
+
+    <p>-----INPUT FIELDS-----</p>
+    <input
+      type="text"
+      required
+      id="userName"
+      name="userName"
+      placeholder="Enter Username..."
+    />
+
+    <hr />
+
+    <p>-----TEXT INPUT FIELDS-----</p>
+
+    <p><em>1. Text</em></p>
+    <input
+      type="text"
+      id="firstName"
+      name="firstName"
+      placeholder="Enter Name"
+    />
+    <br />
+    <p><em>2. Email</em></p>
+    <input type="email" id="email" name="email" placeholder="Enter Email" />
+    <br />
+    <p><em>3. Password</em></p>
+    <input
+      type="password"
+      id="password"
+      name="password"
+      placeholder="Enter Password"
+    />
+
+    <hr />
+
+    <p>-----NUMBER INPUT FIELDS-----</p>
+
+    <p><em>1. Number</em></p>
+    <input
+      type="number"
+      id="age"
+      name="age"
+      min="0"
+      max="99"
+      placeholder="Enter Age"
+    />
+
+    <br />
+
+    <p><em>2. Date</em></p>
+    <input type="date" id="startDate" />
+
+    <br />
+
+    <p><em>3. Range</em></p>
+    <input type="range" id="volume" min="0" max="11" />
+
+    <p>-----OTHER INPUT FIELDS-----</p>
+
+    <p><em>1. Checkbox</em></p>
+    <input type="checkbox" id="gender" name="gender" value="Male" />Male
+
+    <p><em>2. Radio</em></p>
+    <input type="radio" id="html" name="frontend" value="HTML" />HTML
+    <input type="radio" id="css" name="frontend" value="CSS" />CSS
+    <input
+      type="radio"
+      id="javascript"
+      name="frontend"
+      value="JavaScript"
+    />JavaScript
+
+    <p>-----TEXTAREA-----</p>
+    <textarea id="msg" name="message" rows="4" cols="50"></textarea>
+
+    <p>-----LABEL-----</p>
+    <label for="fname">First Name: </label>
+    <input
+      type="text"
+      id="fname"
+      name="firstName"
+      placeholder="Enter Name..."
+    />
+
+    <p>-----SUBMITTING FORMS-----</p>
+    <form action="https://coddy.tech/" method="POST">
+      <input type="submit" value="Submit Form" />
+    </form>
+  </body>
+</html>
